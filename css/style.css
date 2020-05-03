@@ -169,94 +169,6 @@ main .sub-title {
   font-size: 1.8rem;
 }
 
-/* BLOGのページ */
-.article {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-.article-box {
-  position: relative;
-  width: 39%;
-  padding: 230px 0 0;
-  margin-bottom: 20px;
-  background-color: rgb(241, 239, 239);
-  border-radius: 5px;
-  border-bottom: 7px solid;
-}
-.article-box.box-s {
-  width: 29%;
-}
-.article-box.box-l {
-  width: 59%;
-}
-.article-box img {
-  width: 100%;
-  height: 225px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  border-radius: 5px;
-}
-.article-box:hover {
-  opacity: 0.9;
-}
-.article-box .title {
-  font-size: 1.8rem;
-  letter-spacing: 1px;
-  color: #333;
-  margin: 10px;
-  text-align: left;
-}
-.article-box .date {
-  padding: 4px;
-  color: #767a81;
-  text-align: center;
-  letter-spacing: 1px;
-  font-weight: bold;
-  font-size: 1.1rem;
-}
-.article-box .title::before {
-  content: "";
-  display: inline-block;
-  width: 17px;
-  height: 17px;
-  margin-right: -5px;
-  border: 3px solid;
-  border-radius: 50%;
-  vertical-align: -2px;
-}
-.article-box .desc {
-  font-size: 1.2rem;
-  color: rgb(112, 105, 105);
-  margin: 5px 15px 10px;
-  letter-spacing: 1px;
-}
-.article-box.travel,
-.article-box.travel .title::before {
-  border-color: #ffc0cb;
-}
-.article-box.shoyo,
-.article-box.shoyo .title::before {
-  border-color: #76c047;
-}
-.article-box.live,
-.article-box.live .title::before {
-  border-color: #fff100;
-}
-.article-box.soccer,
-.article-box.soccer .title::before {
-  border-color: #3a2edb;
-}
-.article-box.dousoukai,
-.article-box.dousoukai .title::before {
-  border-color: #df5858;
-}
-.article-box.birthday,
-.article-box.birthday .title::before {
-  border-color: #8f27d4;
-}
 
 /* ########### 425px以下 ########### */
 @media (max-width: 425px) {
@@ -373,17 +285,6 @@ main .sub-title {
   .work .work-box .work-text h2 span {
     font-size: 0.8rem;
   }
-
-  /* BLOGのページ */
-  .article-box {
-    width: 90%;
-  }
-  .article-box.box-s {
-    width: 90%;
-  }
-  .article-box.box-l {
-    width: 90%;
-  }
 }
 
 /* ########### 426px以上～768px以下 ########### */
@@ -490,18 +391,8 @@ main .sub-title {
     font-size: 1.2rem;
     line-height: 1.5;
   }
-
-  /* BLOGのページ */
-  .article-box {
-    width: 49%;
-  }
-  .article-box.box-s {
-    width: 29%;
-  }
-  .article-box.box-l {
-    width: 69%;
-  }
 }
+
 
 /* ########### 769px以上～1024px以下 ########### */
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -579,9 +470,8 @@ main .sub-title {
   .work .work-box .work-text h2 span {
     font-size: 1.8rem;
   }
-
-  /* BLOGのページ */
 }
+
 
 /* ########### 1025px以上1440px以下 ########### */
 @media (min-width: 1025px) and (max-width: 1440px) {
@@ -671,6 +561,4 @@ main .sub-title {
   .work .work-box .work-text h2 span {
     font-size: 1.8rem;
   }
-
-  /* BLOGのページ */
 }
