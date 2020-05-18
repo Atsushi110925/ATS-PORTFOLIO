@@ -66,7 +66,7 @@ footer p {
 /* HOMEのページ */
 main .title {
   text-align: center;
-  font-size: 10rem;
+  font-size: 8rem;
   font-family: cursive;
   letter-spacing: 10px;
   margin: 0;
@@ -206,12 +206,12 @@ main .sub-title {
 
   /* HOMEのページ */
   main .title {
-    font-size: 5rem;
+    font-size: 3.5rem;
     letter-spacing: 6px;
   }
   main .sub-title {
     margin-top: 20px;
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
 
   /* ABOUTのページ */
@@ -314,12 +314,12 @@ main .sub-title {
 
   /* HOMEのページ */
   main .title {
-    font-size: 7.2rem;
+    font-size: 4.5rem;
     letter-spacing: 3px;
   }
   main .sub-title {
     margin-top: 50px;
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 
   /* ABOUTのページ */
@@ -409,7 +409,7 @@ main .sub-title {
 
   /* HOMEのページ */
   main .title {
-    font-size: 9rem;
+    font-size: 6.5rem;
     letter-spacing: 8px;
   }
   main .sub-title {
@@ -452,7 +452,7 @@ main .sub-title {
     margin-bottom: 80px;
   }
   .work .work-box .work-text h1 {
-    font-size: 2.3rem;
+    font-size: 2rem;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -509,12 +509,12 @@ main .sub-title {
 
   /* HOMEのページ */
   main .title {
-    font-size: 10rem;
+    font-size: 7rem;
     letter-spacing: 10px;
   }
   main .sub-title {
     margin-top: 70px;
-    font-size: 2.8rem;
+    font-size: 2.6rem;
   }
 
   /* ABOUTのページ */
@@ -546,7 +546,7 @@ main .sub-title {
     margin-bottom: 80px;
   }
   .work .work-box .work-text h1 {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
   }
   .work .work-box .work-text h1 a {
     font-size: 1.4rem;
